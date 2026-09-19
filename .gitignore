@@ -1,0 +1,63 @@
+# ---------- Java / Maven ----------
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+dependency-reduced-pom.xml
+hs_err_pid*
+replay_pid*
+
+# ---------- Node / React ----------
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# ---------- Bien moi truong ----------
+.env
+.env.local
+.env.development.local
+.env.production.local
+!.env.example
+
+# ---------- File upload cua nguoi dung ----------
+uploads/
+backend/uploads/
+!backend/uploads/.gitkeep
+
+# ---------- Cau hinh cuc bo ----------
+application-local.yml
+application-local.properties
+
+# ---------- IDE ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+!.vscode/extensions.json
+.settings/
+.project
+.classpath
+.factorypath
+nbproject/private/
+
+# ---------- He dieu hanh ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Log ----------
+logs/
+*.log
